@@ -1,0 +1,313 @@
+body{
+	font-family: 'Exo 2', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #414042;
+}
+
+.navigation{
+	height: 10vh;
+	border-bottom: 1px solid #eeeeef;
+	padding: 20px 40px;
+}
+
+.navigation .brand-container{
+	display: inline-block;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+a.brand{
+	display: inline-block;
+	margin-top: -6px;
+	font-size: 27px;
+	text-decoration: none;
+	cursor: pointer;
+	color: #47b462;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.navigation span{
+	vertical-align: super;
+	font-size: 18px;
+	color: #808082;
+	font-weight: 300;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+.sign{
+	float: right;
+}
+
+a.signup{
+	margin-right: 20px;
+	line-height: 40px;
+	vertical-align: middle;
+}
+
+a.signin{
+	/*float: right;*/
+	font-size: 18px;
+	border-radius: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 2px solid #47b462;
+	color: #47b462;
+	line-height: 40px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	vertical-align: middle;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a.signin:hover{
+	background-color: #47b462;
+	color: white;
+	border: 2px solid #47b462;
+	text-decoration: none;
+}
+
+a.signin:focus{
+	color: #47b462;
+	border: 2px solid #47b462;
+	background-color: transparent !important;
+	text-decoration: none;
+}
+a.signin:active{
+	color: #47b462;
+	border: 2px solid #47b462;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+/* Landing Page */
+
+.offers{
+	position: relative;
+	height: 80vh;
+}
+
+.background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	/*background-color: #ddd;*/
+	background-image: url("../img/background_.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+a.item{
+	text-decoration: none;
+	color: white;
+}
+
+a.item img.imagehover{
+	display: none;
+}
+
+a.item:hover .offer-item{
+	transition-property: background-color;
+	transition-duration: 0.35s;
+	transition-timing-function: initial;
+	transition-delay: initial;
+	background-color: rgba(71, 180, 98, 0.7);
+}
+
+a.item:hover img.imagehover{
+	display: inline-block;
+}
+
+a.item:hover img.image{
+	display: none;
+}
+
+.offer-item{
+	height: 80vh;
+	border-right: 1px dashed white;
+	padding-top: 210px;
+}
+
+.offer-item h3{
+	font-weight: 600;
+	text-shadow: 2px 2px 20px rgba(0,0,0,1.2);
+}
+
+.offer-item span{
+	font-size: 16px;
+	font-weight: 300;
+	text-shadow: 2px 2px 20px rgba(0,0,0,1.2);
+}
+
+/* Consulting Page */
+
+.title{
+	height: 40vh;
+	background-color: #fafafa;
+	padding: 65px 0px;
+}
+
+.description_consulting{
+	margin-left: -15px;
+}
+
+.calltoaction_consulting{
+	padding-top: 35px;
+	padding-right: 0px;
+}
+
+span.consultation_commitment{
+	font-size: 0.7em;
+	color: #808082;
+}
+
+.faq{
+	height: 80vh;
+	padding: 20px 0px;
+}
+
+.faq .panel{
+	border: none;
+}
+
+.faq .panel-default .panel-heading{
+	background-color: transparent !important;
+	border-bottom: 1px solid #eeeeef;
+	box-shadow: none;
+}
+
+/* Doctors */
+.filter{
+	height: 80px;
+	padding-top: 17px;
+	border-bottom: 1px solid #eeeeef;
+}
+
+.doctors_list{
+	padding-top: 20px;
+}
+
+.sort_by{
+	padding-top: 12px;
+}
+
+.search_by_doctors{
+	margin-left: -15px;
+}
+
+#search_control{
+	border: none;
+	box-shadow: none;
+	text-align: right;
+}
+
+#search_icon{
+	background-color: transparent;
+	border: none;
+	font-size: 1.2em;
+}
+
+.form-group{
+	float: right;
+}
+
+span.doctor_sort{
+	/*font-size: 0.8em;*/
+	padding-top: 10px;
+}
+
+.doctor_profile{
+	/*height: 25vh;*/
+	border-bottom: 1px solid #eeeeef;;
+	margin-left: -15px;
+	padding: 40px 0px;
+}
+
+.doctor_profile:hover{
+	background-color: #fafafa;
+}
+
+.doctor_profile:hover span.doctor_name{
+	color: #ff632f;
+	cursor: pointer;
+}
+
+span.doctor_name{
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+span.glyphicon-star-empty{
+	font-size: 1.2em;
+}
+
+/* Doctor Profile */
+
+.profile_title{
+	height: 80px;
+	padding: 10px;
+	border-bottom: 1px solid #eeeeef;
+}
+
+span.profile_name{
+	font-size: 2em;
+	font-weight: 400;
+	vertical-align: middle;
+}
+
+.doctor_video{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: black;
+}
+
+.back_btn{
+	background-color: #fafafa;
+	border: 1px solid #eeeeef;
+}
+
+.profile_desc{
+}
+
+.doctor_info{
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.doctor_details{
+	background-color: #fafafa;
+}
+
+.doctor_statistic{
+	height: 30vh;
+	background-color: #fafafa;
+}
+
+.doctor_articles{
+	padding-top: 20px;
+}
+
+ul.list_articles li:first-child{
+	height: 80px;
+	border-top: 1px solid #eeeeef;
+	border-bottom: 1px solid #eeeeef;
+}
+
+ul.list_articles li{
+	height: 80px;
+	border-bottom: 1px solid #eeeeef;
+}
+
+/* Footer */
+
+.footer{
+	height: 10vh;
+	/*margin-top: 60px;*/
+	padding: 30px 0px;
+}
